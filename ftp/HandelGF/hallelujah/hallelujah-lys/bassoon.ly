@@ -1,7 +1,6 @@
 \version "2.18.0"
 \include "header.ly"
 
-#(ly:set-point-and-click 'line-column )
 
 bassonoNotes =  \relative c {
 

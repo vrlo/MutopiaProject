@@ -21,7 +21,6 @@
 
 \include "header.ly"
 
-#(ly:set-point-and-click 'line-column )
 
 
 \score {
