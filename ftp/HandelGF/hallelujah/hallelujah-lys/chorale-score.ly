@@ -1,3 +1,4 @@
+\version "2.18.0"
 \include "soprano.ly"
 \include "alto.ly"
 \include "tenor.ly"
@@ -12,36 +13,41 @@
     \simultaneous
     {    } %}
 	    \new ChoirStaff <<
-	    	%\set Staff.instrument = \markup \smaller "Coro" 
+	    	%\set Staff.instrumentName = \markup \smaller "Coro" 
 
 		\new Staff <<
 		    \Soprano
 		    \set Staff.midiInstrument = #"flute"
-		    \set Staff.instrument = \markup \smaller "Soprano" 
+		    \set Staff.instrumentName = \markup \smaller "Soprano" 
 		>>
 
 		\new Staff <<
 		    \Alto
 		    \set Staff.midiInstrument = #"oboe"
-		    \set Staff.instrument = \markup \smaller "Alto" 
+		    \set Staff.instrumentName = \markup \smaller "Alto" 
 		>>
 		
 		\new Staff <<
 		    \Tenor
 		    \set Staff.midiInstrument = #"clarinet"
-		    \set Staff.instrument = \markup \smaller "Tenore" 
+		    \set Staff.instrumentName = \markup \smaller "Tenore" 
 		>>		
 	    	
 		\new Staff <<
 		    \Bass
 		    \set Staff.midiInstrument = #"bassoon"
-		    \set Staff.instrument = \markup \smaller "Basso" 
+		    \set Staff.instrumentName = \markup \smaller "Basso" 
 		>>
 		
 	    >>
 
-	\midi { \tempo 4 = 120 }
-	\paper {}
+	
+  \midi {
+    \tempo 4 = 120
+    }
+
+
+	\layout {}
 	\header {}
 }
 

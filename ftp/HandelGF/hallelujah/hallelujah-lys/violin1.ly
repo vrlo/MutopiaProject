@@ -1,8 +1,9 @@
+\version "2.18.0"
 #(ly:set-point-and-click 'line-column )
 
 \include "header.ly"
 
-violinInotes = \notes\relative c {
+violinInotes = \relative c {
   \key d \major
   
   \time 4/4 

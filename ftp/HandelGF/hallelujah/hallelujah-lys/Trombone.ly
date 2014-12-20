@@ -1,7 +1,8 @@
+\version "2.18.0"
 \include "header.ly"
 \include "cello.ly"
 
-BbTrombone = \notes \transpose bes c' \CelloStaff %\CelloNotes 
+BbTrombone =  \transpose bes c' \CelloStaff %\CelloNotes 
 
 \score {
   <<

@@ -1,8 +1,9 @@
+\version "2.18.0"
 \include "header.ly"
 
 #(ly:set-point-and-click 'line-column )
 
-CelloNotes = \notes\relative c {
+CelloNotes = \relative c {
 
   
   \key d \major
@@ -190,7 +191,7 @@ CelloStaff = <<
 
 
 
-BbTrombone = \notes \transpose bes c' \CelloNotes 
+BbTrombone =  \transpose bes c' \CelloNotes 
 %\CelloStaff 
 
 \score {
