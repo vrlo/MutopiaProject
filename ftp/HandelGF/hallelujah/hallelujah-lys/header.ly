@@ -1,24 +1,25 @@
 \version "2.18.0"
 
 \header {
+  title = "Hallelujah Chorus from Messiah"
+  composer = "Georg Friedrich Handel (1685–1759)"
 
-       title = "Hallelujah Chorus from Messiah"
-       composer = "Handel"
-       piece = "Allegro"
-	opus = "HWV 56"
- mutopiatitle = "Hallelujah Chorus from Messiah"
- mutopiacomposer = "HandelGF"
- mutopiainstrument = "String"
- date = "1741"
- source = "Not-Sure"
- style = "Baroque"
- copyright = "Public Domain"
- maintainer = "Joshua Koo"
- maintainerEmail = "joshuakoo@myrealbox.com"
- lastupdated = "2004/June/17"
- 
- tagline = ""
- footer = "Mutopia-2004/08/02-459"
+  piece = "Allegro"
+  opus = "HWV 56"
+  mutopiatitle = "Hallelujah Chorus from Messiah"
+  mutopiacomposer = "HandelGF"
+  mutopiainstrument = "Orchestra: Oboe, Bassoon, Trumpet, Timpani, Violin, Viola, Violoncello, Voices"
+  date = "1741"
+  source = "Not-Sure"
+  style = "Baroque"
+  license = "Public Domain"
+  maintainer = "Joshua Koo"
+  maintainerEmail = "joshuakoo@myrealbox.com"
+  lastupdated = "2014/December/20"
+
+  footer = "Mutopia-2014/12/20-459"
+  copyright =  \markup { \override #'(baseline-skip . 0 ) \right-column { \sans \bold \with-url #"http://www.MutopiaProject.org" { \abs-fontsize #9  "Mutopia " \concat { \abs-fontsize #12 \with-color #white \char ##x01C0 \abs-fontsize #9 "Project " } } } \override #'(baseline-skip . 0 ) \center-column { \abs-fontsize #11.9 \with-color #grey \bold { \char ##x01C0 \char ##x01C0 } } \override #'(baseline-skip . 0 ) \column { \abs-fontsize #8 \sans \concat { " Typeset using " \with-url #"http://www.lilypond.org" "LilyPond" " by " \maintainer " " \char ##x2014 " " \footer } \concat { \concat { \abs-fontsize #8 \sans{ " Placed in the " \with-url #"http://creativecommons.org/licenses/publicdomain" "public domain" " by the typesetter " \char ##x2014 " free to distribute, modify, and perform" } } \abs-fontsize #13 \with-color #white \char ##x01C0 } } }
+  tagline = ##f
 }
 
 \layout {
